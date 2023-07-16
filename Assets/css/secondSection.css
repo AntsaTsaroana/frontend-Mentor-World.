@@ -33,7 +33,6 @@
   object-fit: cover;
 }
 
-
 /* RIGHT ITEMS */
 .rightItem {
   width: 60%;
@@ -54,29 +53,30 @@
 }
 
 .rightItem > h4:hover {
-    cursor: pointer;
-    color: #ff4b4bed;
+  cursor: pointer;
+  color: #ff4b4bed;
 }
 
 .rightItem > p {
+  color: #666;
   line-height: 25px;
 }
 
 /* RESPONSIVE */
-@media screen and (max-width:835px) {
-    .secondSection {
-        flex-direction: column;
-        align-items: center;
-    }
+@media screen and (max-width: 835px) {
+  .secondSection {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .secondSection > .items {
-        width: 80%;
-        margin-bottom: 25px;
-    }
+  .secondSection > .items {
+    width: 80%;
+    margin-bottom: 25px;
+  }
 }
 
 @media screen and (max-width: 640px) {
-    .secondSection > .items {
-        width: 95%;
-    }
+  .secondSection > .items {
+    width: 95%;
+  }
 }

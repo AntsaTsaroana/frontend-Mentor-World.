@@ -91,10 +91,12 @@
 
 .firstSectionRight > div > h3 {
   margin-bottom: 10px;
+  color: #fff;
 }
 
 .firstSectionRight > div > p {
   font-size: 15px;
+  color: #d3d3d3;
 }
 
 /* RESPONSIVE */
