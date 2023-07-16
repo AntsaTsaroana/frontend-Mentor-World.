@@ -15,6 +15,7 @@ ul {
 li {
   display: inline;
   margin-left: 20px;
+  color: #666;
   transition: 0.5s;
 }
 
